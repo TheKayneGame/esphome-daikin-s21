@@ -9,8 +9,8 @@ using namespace esphome;
 namespace esphome {
 namespace daikin_s21 {
 
-#define SETPOINT_MIN 18
-#define SETPOINT_MAX 32
+#define SETPOINT_MIN 10
+#define SETPOINT_MAX 30
 #define SETPOINT_STEP 0.5f
 
 static const char *const TAG = "daikin_s21.climate";
